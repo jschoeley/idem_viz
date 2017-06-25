@@ -1,0 +1,60 @@
+---
+title: US Population 2014 by State
+source: Vintage 2014 Population Estimates. US, State, and PR Total Population and Components of Change. US Census Bureau.
+author: Jonas Schöley <jonas.schoeley@kolabnow.com>
+revision: 2015-06-14
+note: The dataset has been altered from the source. Short codes for the state names have been added and the entry for "Puerto Rico" has been deleted. The above author is only responsible for the conversion into csv format from the source. The original author is the US Census Bureau.
+---
+
+State,Short,Population
+Alabama,AL,4849377
+Alaska,AK,736732
+Arizona,AZ,6731484
+Arkansas,AR,2966369
+California,CA,38802500
+Colorado,CO,5355866
+Connecticut,CT,3596677
+Delaware,DE,935614
+DistrictofColumbia,DC,658893
+Florida,FL,19893297
+Georgia,GA,10097343
+Hawaii,HI,1419561
+Idaho,ID,1634464
+Illinois,IL,12880580
+Indiana,IN,6596855
+Iowa,IA,3107126
+Kansas,KS,2904021
+Kentucky,KY,4413457
+Louisiana,LA,4649676
+Maine,ME,1330089
+Maryland,MD,5976407
+Massachusetts,MA,6745408
+Michigan,MI,9909877
+Minnesota,MN,5457173
+Mississippi,MS,2994079
+Missouri,MO,6063589
+Montana,MT,1023579
+Nebraska,NE,1881503
+Nevada,NV,2839099
+NewHampshire,NH,1326813
+NewJersey,NJ,8938175
+NewMexico,NM,2085572
+NewYork,NY,19746227
+NorthCarolina,NC,9943964
+NorthDakota,ND,739482
+Ohio,OH,11594163
+Oklahoma,OK,3878051
+Oregon,OR,3970239
+Pennsylvania,PA,12787209
+RhodeIsland,RI,1055173
+SouthCarolina,SC,4832482
+SouthDakota,SD,853175
+Tennessee,TN,6549352
+Texas,TX,26956958
+Utah,UT,2942902
+Vermont,VT,626562
+Virginia,VA,8326289
+Washington,WA,7061530
+WestVirginia,WV,1850326
+Wisconsin,WI,5757564
+Wyoming,WY,584153
