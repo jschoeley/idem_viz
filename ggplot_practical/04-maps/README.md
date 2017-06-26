@@ -124,7 +124,7 @@ ggmap(usmap) +
 
     ## Warning: Removed 6 rows containing missing values (geom_point).
 
-![](maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](04-ggplot-maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 We can sum up cases at the same position and map the summed value to the size aestetic. `..n..` is a variable produced by the `sum` statistic and gives the number of cases at each `lon` and `lat`.
 
@@ -138,7 +138,7 @@ ggmap(usmap) +
 
     ## Warning: Removed 6 rows containing non-finite values (stat_sum).
 
-![](maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](04-ggplot-maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 We overlay 2d density contours...
 
@@ -157,7 +157,7 @@ ggmap(usmap) +
 
     ## Warning: Removed 6 rows containing non-finite values (stat_sum).
 
-![](maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](04-ggplot-maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 ...and shade them according to level.
 
@@ -183,7 +183,7 @@ ggmap(usmap) +
 
     ## Warning: Removed 6 rows containing non-finite values (stat_sum).
 
-![](maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](04-ggplot-maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 Note that this is not a very informative visualization as we have basically just reproduced population density. Dot maps are much more useful on a smaller scale, e.g. neighbourhoods or cities.
 
@@ -232,7 +232,7 @@ ggmap(kabul) +
 
     ## Warning: Removed 75069 rows containing missing values (geom_point).
 
-![](maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](04-ggplot-maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 ``` r
 ggmap(kabul) +
@@ -243,4 +243,4 @@ ggmap(kabul) +
 
     ## Warning: Removed 75069 rows containing missing values (geom_point).
 
-![](maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-9-2.png)
+![](04-ggplot-maps_from_map_tiles_files/figure-markdown_github/unnamed-chunk-9-2.png)

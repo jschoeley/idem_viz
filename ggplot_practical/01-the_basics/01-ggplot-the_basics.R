@@ -220,9 +220,10 @@ gapminder %>% filter(year == 2007) %>%
 #' scales is different from directly transforming the underlying data.
 
 gapminder %>% filter(year == 2007) %>%
-  ggplot(aes(x = log10(gdpPercap), y = lifeExp, size = pop, colour = continent)) +
+  ggplot(aes(x = gdpPercap, y = lifeExp, size = pop, colour = continent)) +
   geom_point() +
-  scale_x_continuous(name = "Income per person (GDP/capita, PPP$ inflation-adjusted)") +
+  scale_x_continuous(name = "Income per person (GDP/capita, PPP$ inflation-adjusted)",
+                     trans = "log10") +
   scale_y_continuous(name = "Life expectancy (years)") +
   scale_color_discrete(name = "Continent") +
   scale_size_continuous(name = "Population, total")
